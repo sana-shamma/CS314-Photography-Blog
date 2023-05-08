@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baby</title>
+</head>
+<body>
+
+    <div class="page">
+        <img width="400px" height="400px" id="image1" src="{% static 'gallary/baby/baby1.jpg'  %}"  />
+        <img width="400px" height="400px" id="image2" src="{% static 'gallary/baby/baby2.jpg'  %}"  />
+        <img width="400px" height="400px" id="image3" src="{% static 'gallary/baby/baby3.jpg'  %}"  />
+        <img width="400px" height="400px" id="image4" src="{% static 'gallary/baby/baby4.jpg'  %}"  />
+        <img width="400px" height="400px" id="image5" src="{% static 'gallary/baby/baby5.jpg'  %}"  />
+        <img width="400px" height="400px" id="image6" src="{% static 'gallary/baby/baby6.jpg'  %}"  />
+        <img width="400px" height="400px" id="image7" src="{% static 'gallary/baby/baby7.jpg'  %}"  />
+    </div>
+</body>
+</html>
+{% endblock %}

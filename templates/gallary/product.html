@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+</head>
+<body>
+
+    <div class="page">
+        <img width="400px" height="400px" id="image1" src="{% static 'gallary/product/product1.jpg'  %}"  />
+        <img width="400px" height="400px" id="image1" src="{% static 'gallary/product/product2.jpg'  %}"  />
+        <img width="400px" height="400px" id="image1" src="{% static 'gallary/product/product3.jpg'  %}"  />
+        <img width="400px" height="400px" id="image1" src="{% static 'gallary/product/product4.jpg'  %}"  />
+        <img width="400px" height="400px" id="image1" src="{% static 'gallary/product/product5.jpg'  %}"  />
+        <img width="400px" height="400px" id="image1" src="{% static 'gallary/product/product6.jpg'  %}"  />
+        <img width="400px" height="400px" id="image1" src="{% static 'gallary/product/product7.jpg'  %}"  />
+    </div>
+</body>
+</html>
+{% endblock %}
